@@ -1,1 +1,1 @@
-# chain-of-responsability-test
+# chain-of-responsibility-test
