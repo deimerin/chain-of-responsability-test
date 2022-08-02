@@ -1,5 +1,7 @@
 package com.example;
 
+import java.util.Scanner;
+
 public class App {
     public static void main( String[] args ) {
 
@@ -10,9 +12,9 @@ public class App {
 
         chain1.setNextChain(chain2);
         chain2.setNextChain(chain3);
-        chain3.setNextChain(chain4);
+        chain3.setNextChain(chain4);      
 
-        Operation request = new Operation(5, 2, "*");
+        Operation request = new Operation(5, 6, "*");
 
         chain1.calculate(request);
 
