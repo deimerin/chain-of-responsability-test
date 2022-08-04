@@ -4,9 +4,9 @@ public class Operation {
 
     private int operand1;
     private int operand2;
-    private String operator;
+    private Character operator;
 
-    public Operation(int newOperand1, int newOperand2, String newOperator){
+    public Operation(int newOperand1, int newOperand2, Character newOperator){
         operand1 = newOperand1;
         operand2 = newOperand2;
         operator = newOperator;
@@ -20,7 +20,7 @@ public class Operation {
         return operand2;
     }
 
-    public String getOperator(){
+    public Character getOperator(){
         return operator;
     }
   
